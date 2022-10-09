@@ -1,9 +1,8 @@
 # 3d Model Maker
 
 ## Introduction
-    The goal of this application is for me to practice using both Three.js; a 3d web library, and an AMP stack (APACHE, MySQL, PHP) backend.
-
-    The finished product will let users build their own simple 3d models in the web browser, and be able to save and load their creations.
+The goal of this application is for me to practice using both Three.js; a 3d web library, and an AMP stack (APACHE, MySQL, PHP) backend.
+The finished product will let users build their own simple 3d models in the web browser, and be able to save and load their creations.
 
 ## Main Challenges
 
