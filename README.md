@@ -1,70 +1,20 @@
-# Getting Started with Create React App
+# 3d Model Maker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introduction
+    The goal of this application is for me to practice using both Three.js; a 3d web library, and an AMP stack (APACHE, MySQL, PHP) backend.
 
-## Available Scripts
+    The finished product will let users build their own simple 3d models in the web browser, and be able to save and load their creations.
 
-In the project directory, you can run:
+## Main Challenges
 
-### `npm start`
+1. ✔️ Setting up the AMP backend
+    * I ended up using XAMPP and the MySQL workbench to get the backend set up. It probably would have been better to just use the command line for all this but it works in the end and now I have a nice gui to help speed things up.
+    * Current State: I have a simple database set up and the site can send basic text data to it. Nothing special yet, but this is a large step in the right direction. The hardest part was just getting XAMPP working correctly while not following a tutorial to the T.
+    * Next Steps: Expand the database to hold the data for user generated 3d objects.
+2. 🔲 Implement Three.js
+    * The main feature of the site and currently what I'm working on. First step is to get a model showing in the browser window. From there I can see about exposing some of the model generation fuctions as UI elements so users can mess with models in real time. Then comes saving and loading from the database.
+    * Current State: Nonexistant, activley working on it.
+    * Next Steps: Implement Three.js to the canvas.
+3. 🔲 Implement Saving and Loading
+    *The final step is going to be putting the previous two features together, allowing for users to save their work and potentially download the data for using their 3d models. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
